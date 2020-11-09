@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="login.css">
+        <script src="style.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="title">Lunar Fight</div>
+        <div id="login">
+            <div id="logininput">
+                <div id="topbutton" style="margin-left: 30px" onclick="login()">Login</div>
+                <div id="topbutton" style="margin-left: 180px" onclick="register()">Register</div>
+                Username :
+                <input id="usernamelogin" style="margin-left: 15px">
+                <br>
+                Password :
+                <input id="passwordlogin" style="margin-left: 15px;">
+                <br>
+                <div id="loginbutton" style="margin-left: 120px" onclick="loginbutton()">Login</div>
+                <div id="loginbutton" style="margin-left: 10px;width: 150px">Forgot Password</div>
+            </div>
+        </div>
+        <div id="register">
+            <div id="registerinput">
+                <div id="topbutton" style="margin-left: 30px" onclick="login()">Login</div>
+                <div id="topbutton" style="margin-left: 180px" onclick="register()">Register</div>
+                <div id="fontsize" style="font-size: 70%;margin-top: -30px" >
+                    <div class="username">
+                        <div style="float: left">Username :</div>
+                        <input id="username" style="margin-left: 15px;float: left">
+                    </div>
+                    <br>
+                    <div class="email" style="float: left">
+                        <div style="float: left">Email :</div>
+                        <input id="email" style="margin-left: 43px;float: left">
+                    </div>
+                    <br>
+                    <div class="password" style="float: left">
+                        <div style="float: left">Password :</div>
+                        <input id="password" style="margin-left: 15px;float: left">
+                    </div>
+                    <br>
+                    <div id="registerbutton" style="margin-top: -30px;margin-right: 20px; width: 90px;font-size: 100%;float: right" onclick="registerbutton()">Register</div>
+                    <div id="character">
+                        <div id="chararrow" onclick="arrowleft()"></div>
+                        <div id="captainamerica"></div>
+                        <div id="ichigo"></div>
+                        <div id="chararrow" style="float: right;transform: rotate(180deg);" onclick="arrowright()"></div>
+                    </div>
+                    <div id="hero" style="font-size: 110%;color: white;text-align: center;margin-left: -50px">ichigo</div>
+                </div>
+            </div>
+        </div>
+        <div id="aku" style="font-size: 150%;color: white">aku</div>
+    </body>
+</html>
