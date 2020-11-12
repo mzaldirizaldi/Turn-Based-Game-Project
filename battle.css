@@ -1,0 +1,77 @@
+@font-face {
+  font-family: lunchds;
+  src: url(design/lunchds.ttf);
+}
+@font-face {
+  font-family: beltane;
+  src: url(design/beltane.ttf);
+}
+#chatb
+{
+    float: right;
+    margin-top: 0px;
+    color: white;
+    background-color: #2d4875;
+    background-image:url('design/World-Chat.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    width: 320px;
+}
+#worldrankb
+{
+    float: right;
+    margin-top: 5px;
+    color: white;
+    background-color: #2d4875;
+    background-image:url('design/Rank.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 350px;
+    width: 320px;
+}
+
+#insidelogs
+{
+    float:left;
+    margin-top: 49px;
+    margin-left: 20px;
+    height: 680px;
+    width: 410px;
+}
+#insidechat
+{
+    float: left;
+    margin-top: 53px;
+    margin-left: 15px;
+    height: 300px;
+    width: 288px;
+    overflow: auto;
+}
+#insidechat::-webkit-scrollbar {
+  width: 3px;
+  background: transparent;
+}
+#insidechat::-webkit-scrollbar-thumb {
+  background: #8a91c0;
+}
+#insiderank
+{
+    float: left;
+    margin-top: 39px;
+    margin-left: 17px;
+    height: 297px;
+    width: 287px;
+    overflow: auto;
+}
+#insiderank table
+{
+    width: 287px;
+}
+
+
+#name
+{
+    font-size: 150%;
+    color:white;
+}

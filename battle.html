@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="login.css">
+        <link rel="stylesheet" type="text/css" href="battle.css">
+        <script src="style.js"></script>
+        <script src="script.js"></script>
+        <script src="battlejs.js"></script>
+        <script src="ultijs.js"></script>
+        <script src="chat.js"></script>
+    </head>
+    <body onload="coba();display();rank()">
+        <div id="logs">
+            <div id="insidelogs">
+                <div id="name"></div>
+                <div id="log"></div>
+            </div>
+        </div>
+        <div id="illust"></div>
+        <div id="chatb">
+        <div id="insidechat" style="height: 300px;color: white">
+        </div>
+            <input id="chatinput" style="margin-left: 15px;height: 20px;width: 250px;font-size: 120%;float: left"> 
+            <button id="chatenter" style="height: 25px;width: 30px;float: left;" onclick="chat()">&#9166;</button>
+        </div>
+        <div id="worldrankb">
+        <div id="insiderank" style="text-align: center"></div>
+        </div>
+        <div id="basic" onclick="skill1()"></div>
+        <div id="ultimate" onclick="ulti()"></div>
+    </body>
+</html>
