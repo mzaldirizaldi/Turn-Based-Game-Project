@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="login.css">
+        <link rel="stylesheet" type="text/css" href="battle.css">
+        <script src="style.js"></script>
+        <script src="roomstyle.js"></script>
+        <script src="script.js"></script>
+        <script src="enter.js"></script>
+        <script src="room.js"></script>
+        <script src="chat.js"></script>
+    </head>
+    <body onload="roomlist(); display(); rank()">
+        <div id="title">Lunar Fight</div>
+        <div id="chat" style="height: 398px">
+            <div id="insidechat" style="height: 300px;color: white"></div>
+            <input id="chatinput" style="margin-left: 15px;height: 20px;width: 250px;font-size: 120%;float: left"> 
+            <button id="chatenter" style="height: 25px;width: 30px;float: left;" onclick="chat()">&#9166;</button>
+        </div>
+        <div id="login">
+            <div id="logininput">
+                <div id="topbutton" style="margin-left: 30px;margin-top : -87px;font-size: 85%;width: 135px" onclick="listing();">Find Room</div>
+                <div id="topbutton" style="margin-left: 170px;margin-top : -87px;font-size: 85%;width: 135px" onclick="creating()">Create Room</div>
+                <div style="width: 390px;height: 50px;margin-top: -50px;margin-left: -30px;margin-bottom: -40px; padding-top: -30px;float: left"> 
+                    <div style="float: left; font-size: 80%">Enter Room ID:</div>
+                    
+                    <input id="roomid" style="margin-left: 10px;width: 150px;float:left">
+                    
+                    <div id="loginbutton" style="margin-left: 10px;float: left;margin-top: 0px;height: 17px" onclick="submit()">Enter</div>
+                </div>
+                <div id="roomlist" style="text-align: center;font-size: 70%">
+                </div>
+            </div>
+        </div>
+        <div id="register">
+            <div id="bossinput">
+                <div id="topbutton" style="margin-left: 30px;margin-top : -87px;margin-bottom: -40px;font-size: 85%;width: 135px" onclick="listing()">Find Room</div>
+                    <div id="topbutton" style="margin-left: 170px;margin-top : -87px;font-size: 85%;width: 135px" onclick="creating()">Create Room</div>
+                <div id="boss">
+                <div style="font-size: 70%;margin-top: -20px;margin-left: 100px;">Select Boss :</div>
+                            <div id="bossarrow" onclick="bossleft()"></div>
+                            <div id="madara"></div>
+                            <div id="thanos"></div>
+                            <div id="bossarrow" style="float: right;transform: rotate(180deg);margin-left: 0px;" onclick="bossright()"></div>
+                </div>
+                <div id="hero" style="font-size: 90%;color: white;text-align: center;margin-left: -80px;padding-left: 0px; margin-top: 20px;"><div id="bossname">thanos</div></div>
+                <div id="hero" style="font-size: 80%;color: white;text-align: center;margin-left: -80px;padding-left: 0px; margin-top: 5px;">
+                    <div id="createroom" onclick="createroom()">Create Room</div>
+                </div>
+            </div>    
+        </div>
+        <div id="worldrank" style="margin-top: 33px; margin-right: -320px;">
+        <div id="insiderank" style="text-align: center">test</div>
+        </div>
+        <div id="descmadara" style="display: none"></div>
+    </body>
+</html>

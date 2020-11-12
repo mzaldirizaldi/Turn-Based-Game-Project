@@ -1,11 +1,11 @@
 /*global alert*/
 /* eslint-env browser */
 /* eslint-disable no-unused-vars */
-function login(){var x = document.getElementById("register");var y = document.getElementById("login");
-                 y.style.display = "block";x.style.display = "none";}
+function login(){var x = document.getElementById("register");var z = document.getElementById("descichigo"); var y = document.getElementById("login");var madara = document.getElementById("descmadara");
+                 y.style.display = "block";x.style.display = "none";z.style.display = "none";madara.style.display = "none"}
 
-function register(){var x = document.getElementById("register");var y = document.getElementById("login");
-                    x.style.display = "block";y.style.display = "none";}
+function register(){var x = document.getElementById("register");var z = document.getElementById("descichigo"); var y = document.getElementById("login");
+                    x.style.display = "block";y.style.display = "none"; z.style.display = "block";}
 
 function arrowleft(){var x = document.getElementById("ichigo");var y = document.getElementById("captainamerica");var hero = document.getElementById("hero");
                      if (x.style.display === "none") 
@@ -33,4 +33,5 @@ function arrowright(){var x = document.getElementById("ichigo");var y = document
                          x.style.display = "none";
                       }
                     }
-function ichigo(){var x = document.getElementById("A");x.innerHTML = "ichigo";}
+
+

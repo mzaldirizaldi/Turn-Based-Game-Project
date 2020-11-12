@@ -160,3 +160,209 @@ body
     margin-top:10px;
     cursor: pointer;
 }
+
+#roomlist
+{
+    width: 390px;
+    height: 135px;
+    margin-left: -30px;
+    margin-top: -40px;
+    overflow: auto;
+    color: white;
+}
+#roomlist
+{
+    margin-right: 100px;
+    color: white;
+}
+#roomlist table
+{
+    width: 390px;
+    font-size: 90%;
+}
+#roomlist td
+{
+    margin-right: 10px;
+    color: white;
+}
+#roomlist::-webkit-scrollbar {
+  width: 3px;
+  background: transparent;
+}
+#roomlist::-webkit-scrollbar-thumb {
+  background: #8a91c0;
+}
+#madara
+{
+    height: 92px;
+    width: 110px;
+    background-image:url('design/madara.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    margin-left: 80px;
+    cursor: pointer;
+    display: none;
+}
+#thanos
+{
+    height: 92px;
+    width: 110px;
+    background-image:url('design/thanos3.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    margin-left: 80px;
+    cursor: pointer;
+}
+#bossinput
+{
+    padding-left: 70px;
+    padding-top: 100px;
+    font-size: 150%;
+    
+}
+#bossarrow
+{
+    background-image:url('design/arrow.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50px;
+    height: 42px;
+    color: white;
+    float: left;
+    margin-top:40px;
+    margin-left: -30px;
+    cursor: pointer;
+}
+#boss
+{
+    float: left;
+    width: 350px;
+    height: 70px;
+    margin-top: -15px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
+#createroom
+{
+    float: left;
+    font-size: 90%;
+    width: 130px;
+    height: 25px;
+    padding-top: 5px;
+    margin-left: 180px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    color: #2d4875;
+    border: solid 1px #8a91c0;
+    cursor: pointer;
+}
+#createroom:hover
+{
+    float: left;
+    font-size: 90%;
+    width: 130px;
+    height: 25px;
+    padding-top: 5px;
+    margin-left: 180px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #2d4875;
+    color: white;
+    border: solid 1px #8a91c0;
+    cursor: pointer;
+}
+#descichigo
+{
+    float: left;
+    background-color: #2d4875;
+    margin-left: 495px;
+    background-image:url('design/ichigodesc.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 350px;
+    width: 320px;
+    display: none;
+}
+#descmadara
+{
+    float: left;
+    display: none;
+    background-color: #2d4875;
+    margin-top: 10px;
+    margin-left: 495px;
+    background-image:url('design/madaradesc.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 350px;
+    width: 320px;
+}
+#chat
+{
+    float: right;
+    margin-top: 50px;
+    color: white;
+    background-color: #2d4875;
+    background-image:url('design/World-Chat.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 350px;
+    width: 320px;
+}
+#worldrank
+{
+    float: right;
+    margin-top: 0px;
+    color: white;
+    background-color: #2d4875;
+    background-image:url('design/Rank.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 350px;
+    width: 320px;
+}
+#logs
+{
+    float:left;
+    background-color: #2d4875;
+    background-image:url('design/Logs.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 760px;
+    width: 450px;
+}
+#illust
+{
+    float: left;
+    margin-left: 3px;
+    background-image:url('design/Illust.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 590px;
+    width: 730px;
+    
+}
+#basic
+{
+    float: left;
+    margin-left: 110px;
+    background-color: #2d4875;
+    background-image:url('design/Basic.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100px;
+    width: 200px;
+}
+#ultimate
+{
+    float: left;
+    margin-left: 110px;
+    background-color: #2d4875;
+    background-image:url('design/Ultimate.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100px;
+    width: 200px;  
+}

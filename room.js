@@ -1,0 +1,3 @@
+function listing(){var x = document.getElementById("register");var z = document.getElementById("descmadara"); var y = document.getElementById("login");y.style.display = "block";x.style.display = "none";z.style.display = "none";}
+
+function creating(){var x = document.getElementById("register");var z = document.getElementById("descmadara"); var y = document.getElementById("login");z.style.display = "block";x.style.display = "block";y.style.display = "none";}
